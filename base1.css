@@ -1,0 +1,165 @@
+html,
+body {
+    margin: 0;
+}
+
+
+h1 {
+    color: rgb(8, 59, 19);
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(8, 59, 19);
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    justify-content: justify;
+
+}
+
+body {
+    background-color: rgb(205, 211, 177);
+    display: flow-root;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(204, 219, 165);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    
+}
+
+.header {
+    background-color: rgb(228, 243, 243);
+    min-height: 1%;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: left;
+
+}
+
+/* CSS do formulario */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form div {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid  rgb(132, 148, 93); ;
+    border-radius: 20px ;
+
+}
+
+form input:focus,form textarea:focus{
+    background-color:  rgb(204, 219, 165);
+}
+
+form input[type=submit]{
+    background-color: rgb(168, 192, 107);
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+    
+}
+form input[type=reset]{
+    background-color: rgb(168, 192, 107);
+    color: aliceblue;
+    cursor: pointer;
+}
+form label{
+    margin-left: 10px;
+}
+
+
+/* fim do CSS do formulario */
+
+.holder {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.imagem {
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.imagem::after {
+    content: attr(data-title);
+    /* estilo que coloco a legenda no lugar */
+    position: center;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+/* Roda pé */
+.footer {
+    background-color: rgb(230, 243, 191);
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    color: rgb(8, 59, 19);
+
+    min-height: 40px;
+    padding: 30px;
+}
+
+.sociais {
+    display: flex;
+    background-color: rgb(204, 219, 165);
+    justify-content: center;
+    min-height: 40px;
+    padding: 20px;
+}
+

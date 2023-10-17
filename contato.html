@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica 4 patinhas</title>
+    <link rel="stylesheet" href="base1.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Home.html" target="_blank">Inicio</a></li>
+                <li><a href="sobre.html" target="_blank">Sobre</a></li>
+                <li><a href="horarios.html" target="_blank">Horários</a></li>
+                <li><a href="contato.html" target="_blank">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/dog_home.JPG" width="100%">
+                <h1> ONDE ESTAMOS </h1>
+            </div>
+
+            <div class="content">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6179.711957268431!2d-43.24435293429911!3d-22.932590490511274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e1b4bfbdacd%3A0x4a4d38d7dbf91618!2sTijuca%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1697335204920!5m2!1spt-BR!2sbr"
+                    width="1080" height="800" style="border: 1px;;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+                <h2>PORQUE ESCOLHER A VETERINÁRIA 4 PATINHAS ?</h2>
+
+
+                <div class="holder">
+                    <div class="imagem" data-title="Acolhimento de nossos clientes">
+                        <img src="img/dog_sobre2.JPG" width="250" />
+                    </div>
+                    <div class="imagem" data-title="Conforto, higiene e segurança">
+                        <img src="img/dog_sobre3.JPG" width="250" />
+                    </div>
+                    <div class="imagem" data-title="Médicos veterinários capacitados  ">
+                        <p></p>
+                        <img src="img/dog_sobre4.JPG" width="250" />
+                    </div>
+                </div>
+                <h2>Entre em contato conosco </h2>
+                <section>
+                    <form>
+                        <div>
+                            <label>Nome*</label>
+                            <input type="text" placeholder="Digite seu nome" name="nome" required><br>
+                        </div>
+                        <div>
+                            <label>Email*</label>
+                            <input type="text" placeholder="Digite seu email" name="Email" required><br>
+                        </div>
+                        <div>
+                            <label>Mensagem</label>
+                            <textarea cols="40" placeholder="Digite sua mensagem" rows="10" name="mensagem"
+                                required></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" onclick="Retornar_Mensagem()" value="Enviar"/>
+                            <input type="reset" value="Apagar" />
+                            
+                        </div>
+
+                    </form>
+                </section>
+                <div class="footer">
+                    Rua das Pedrinhas,77 Tijuca - Rio de Janeiro (21) 12345-6789
+                </div>
+
+
+                <div class="sociais">
+                    <div class="imagem" data-title="">
+                        <a href="https://www.facebook.com/login/" target="_blank"> <img src="img/facebook (1).png"
+                                width="50"></a>
+
+                    </div>
+                    <div class="imagem" data-title="">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"
+                                width="50"></a>
+                    </div>
+                    <div class="imagem" data-title="">
+                        <a href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank"> <img
+                                src="img/whatsapp (1).png" width="50" target="_blank"></a>
+                    </div>
+                    <div>
+                        <p><a href="clinica4patinhas@teste.com/">Clínica4patinhas@teste.com</a></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <a href="#">&mapstoup; Topo da Página</a>
+        </div>
+        <script>
+            function Retornar_Mensagem()
+            {
+            alert("Mensagem enviada com Sucesso!");
+            }
+            </script>
+</body>
+
+</html>
